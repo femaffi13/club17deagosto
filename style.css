@@ -1,5 +1,3 @@
-
-
 body{
     color: #fff;
     overflow-x: hidden;
@@ -43,4 +41,10 @@ body{
 
 .table-responsive{
     overflow-x: auto;
+}
+
+@media screen and (max-width: 800px){
+    .carousel-item{
+        height: 18rem;
+    }
 }
